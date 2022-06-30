@@ -27,7 +27,19 @@
 
 .tag-container .material-icons {
     font-size: 16px;
+    cursor: pointer;
+
     margin-left: 5px;
+
+    transition: .2s ease;
+}
+
+.tag-container .material-icons:hover {
+    transform: scale(1.15);
+}
+
+.tag-container .material-icons:active {
+    transform: scale(1.02);
 }
 
 .tag-container input {

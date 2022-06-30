@@ -1,6 +1,6 @@
 const tagContainer = document.querySelector('.tag-container')
 
-const input = document.querySelector('.tag-container textarea')
+const input = document.querySelector('.tag-container input')
 
 let tags = []
 
